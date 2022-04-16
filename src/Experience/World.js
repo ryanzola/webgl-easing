@@ -27,6 +27,8 @@ export default class World
 
     resize()
     {
+        if(this.canvas)
+            this.canvas.resize()
     }
 
     update()
